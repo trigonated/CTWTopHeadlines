@@ -22,8 +22,6 @@ For everyone else: You can obtain a free key [here](https://newsapi.org/docs/aut
 
 This project contains both **Unit** and **Instrumented UI** Tests. These tests do not affect the API call quota since they use "mock"/fake API calls.
 
-**WARNING:** Please disable biometric/fingerprint authentication and it is also recommended that
-
 ## Screenshots
 
 ![Screenshot](doc/ss1.png "Screenshot")
