@@ -1,0 +1,25 @@
+<resources>
+    <!-- fragment_top_headlines -->
+    <string name="fragment_top_headlines_toast_message">Could not load the top headlines</string>
+    <!-- fragment_article -->
+    <string name="fragment_article_image_description">Article photo</string>
+    <string name="fragment_article_read_full_article">Read the full article</string>
+    <string name="fragment_article_open_in_browser">Open in browser</string>
+    <string name="fragment_article_no_title">No title</string>
+    <string name="fragment_article_no_content">No content</string>
+    <!-- list_item_article -->
+    <string name="list_item_article_image_description">Article photo</string>
+    <string name="list_item_article_no_title">No title</string>
+    <!-- generic_state_auth -->
+    <string name="generic_state_auth_required_icon_description">Lock icon</string>
+    <string name="generic_state_auth_required_text">Authentication required</string>
+    <string name="generic_state_auth_required_authenticate">Authenticate</string>
+    <!-- generic_state_error -->
+    <string name="generic_state_error_icon_description">Error icon</string>
+    <string name="generic_state_error_text">An error occurred</string>
+    <string name="generic_state_error_refresh">Refresh</string>
+    <!-- biometric_prompt -->
+    <string name="biometric_prompt_title">Authentication required</string>
+    <string name="biometric_prompt_description">Please authenticate to view the content</string>
+    <string name="biometric_prompt_negative">Cancel</string>
+</resources>

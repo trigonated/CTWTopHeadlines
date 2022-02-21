@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/TopHeadlinesFragment">
+    <fragment
+        android:id="@+id/TopHeadlinesFragment"
+        android:name="com.trigonated.ctwtopheadlines.ui.top_headlines.TopHeadlinesFragment"
+        tools:layout="@layout/fragment_top_headlines">
+
+        <action
+            android:id="@+id/action_TopHeadlinesFragment_to_ArticleFragment"
+            app:destination="@id/ArticleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ArticleFragment"
+        android:name="com.trigonated.ctwtopheadlines.ui.article.ArticleFragment"
+        tools:layout="@layout/fragment_article">
+
+        <argument
+            android:name="articleId"
+            app:argType="string" />
+    </fragment>
+</navigation>
